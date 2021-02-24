@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none !important;
+}
+header {
+    background: url("img/cover.jpg") fixed;
+    background-size: cover;
+    background-position: center -240px;
+    height: 500px;
+}
+header strong{
+    font-size: 120%;
+}
+.article{
+    margin-top: 2rem !important;
+    transition: 0.2s; 
+}
+.article:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.article img{
+    padding: 12%;
+}
+
+

@@ -1,0 +1,62 @@
+[
+    {
+        "thumbnail" : "assets/img/cura-della-pelle/thumbnail.png",
+        "title" : "Cura della Pelle",
+        "name" : "cura-della-pelle"
+    },
+    {
+        "thumbnail" : "assets/img/economia-articolare/thumbnail.png",
+        "title" : "Economia Articolare",
+        "name" : "economia-articolare"
+    },
+    {
+        "thumbnail" : "assets/img/ausili/thumbnail.png",
+        "title" : "Ausili",
+        "name" : "ausili"
+    },
+    {
+        "thumbnail" : "assets/img/postura-e-trasferimenti/thumbnail.png",
+        "title" : "Postura e Trasferimenti",
+        "name" : "postura-e-trasferimenti"
+    },
+    {
+        "thumbnail" : "assets/img/esercizio-fisico/thumbnail.png",
+        "title" : "Esercizio Fisico",
+        "name" : "esercizio-fisico"
+    },
+    {
+        "thumbnail" : "assets/img/thumbnail.png",
+        "title" : "Problemi Associati",
+        "name" : "problemi-associati"
+    },
+    {
+        "thumbnail" : "assets/img/nutrizione/thumbnail.png",
+        "title" : "Nutrizione",
+        "name" : "nutrizione"
+    },
+    {
+        "thumbnail" : "assets/img/thumbnail.png",
+        "title" : "Abbigliamento",
+        "name" : "abbigliamento"
+    },
+    {
+        "thumbnail" : "assets/img/sessualità/thumbnail.png",
+        "title" : "Sessualità",
+        "name" : "sessualità"
+    },
+    {
+        "thumbnail" : "assets/img/thumbnail.png",
+        "title" : "Vescica e Intestino",
+        "name" : "vescica-e-intestino"
+    },
+    {
+        "thumbnail" : "assets/img/thumbnail.png",
+        "title" : "Gestione della casa",
+        "name" : "gestione-della-casa"
+    },
+    {
+        "thumbnail" : "assets/img/thumbnail.png",
+        "title" : "Sistema Respiratorio",
+        "name" : "sistema-respiratorio"
+    } 
+]
