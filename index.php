@@ -48,6 +48,8 @@ $articles = json_decode($json);
         </div>
     </div>
 
+    <?php require("templates/footer.html"); ?>
+
 </body>
 
 </html>

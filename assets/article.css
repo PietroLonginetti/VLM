@@ -6,7 +6,6 @@
 h4, h1 {
     color: #0097ff;
     font-weight: 500 !important;
-    margin-top: 4rem !important;
 }
 h1{
     font-weight: 600 !important;
@@ -17,6 +16,9 @@ h5{
 p, li{
     color: rgb(66, 66, 66);
 }
+.chapter-container{
+    margin: 3rem 0 3rem 0;
+}
 .figure-caption{
     margin: 0 5vw;
 }
@@ -26,7 +28,7 @@ p, li{
 #index {
     margin: 1rem 0;
 }
-a{
+a {
     color: #0097ff !important;
 }
 .banner{

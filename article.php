@@ -26,6 +26,8 @@ $HTML = file_get_contents(__DIR__ . "/articles/$name.html");
     <div class="container">
         <?= $HTML ?>
     </div>
+
+    <?php require("templates/footer.html"); ?>
 </body>
 
 </html>
