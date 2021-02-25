@@ -37,3 +37,9 @@ a {
     margin: 2rem 0;
     text-align: center;
 }
+#riferimenti{
+    font-size: smaller;
+}
+#riferimenti h6{
+    margin-bottom: 1rem;
+}
