@@ -33,13 +33,31 @@ a {
 }
 .banner{
     border: 2px solid #0097ff;
-    padding: 0.8rem;
+    padding: 1rem;
     margin: 2rem 0;
     text-align: center;
+    border-radius: 6vh !important;
 }
 #riferimenti{
     font-size: smaller;
 }
 #riferimenti h6{
     margin-bottom: 1rem;
+}
+
+.oneline-canvas, .twocol-canvas {
+    margin: 2rem 0 5rem;
+}
+.oneline-canvas img{
+    max-height: 300px; 
+    max-width: 100%;
+    display: block; 
+    margin: 2rem auto 0;  
+}
+.twocol-canvas img{
+    max-height: 560px;
+    max-width: 350px;
+    display: block; 
+    margin: 6px auto;
+    padding: 0;
 }
