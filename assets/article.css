@@ -19,6 +19,9 @@ p, li{
 .chapter-container{
     margin: 3rem 0 3rem 0;
 }
+.chapter-container a {
+    color: #0097ff !important;
+}
 .figure-caption{
     margin: 0 5vw;
 }
@@ -28,9 +31,7 @@ p, li{
 #index {
     margin: 1rem 0;
 }
-a {
-    color: #0097ff !important;
-}
+
 .banner{
     border: 2px solid #0097ff;
     padding: 1rem;

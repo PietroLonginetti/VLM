@@ -1,5 +1,5 @@
 <nav class="navbar navbar-light navbar-expand-lg">
-    <div class="container">
+    <div class="container" style="padding-left: 20px; padding-right: 20px;">
         <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png" style="width: 200px;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -9,24 +9,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                    <a id="home" class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a id="articles" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Articoli
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="article.php?name=cura-della-pelle">Cura della pelle</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=economia-articolare">Economia articolare</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=ausili">Ausili</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=postura-e-trasferimenti">Postura e trasferimenti</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=esercizio-fisico">Esercizio fisico</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=problemi-associati">Problemi associati</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=nutrizione">Nutrizione</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=abbigliamento">Abbigliamento</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=sessualità">Sessualità</a></li>
+                        <li><a class="dropdown-item disabled" href="article.php?name=vescica-e-intestino">Vescica e intestino</a></li>
+                        <li><a class="dropdown-item" href="article.php?name=gestione-della-casa">Gestione della casa</a></li>
+                        <li><a class="dropdown-item disabled" href="article.php?name=sistema-respiratorio">Sistema respiratorio</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contatti</a>
+                    <a id="contats" class="nav-link" href="#">Contatti</a>
                 </li>
             </ul>
             <form class="d-flex">
