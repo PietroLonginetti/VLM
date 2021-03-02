@@ -8,10 +8,10 @@ a {
     text-decoration: none !important;
 }
 header {
-    background: url("img/cover.jpg") fixed;
+    background: url("img/cover-2.jpg") fixed;
     background-size: cover;
-    background-position: center -240px;
-    height: 500px;
+    background-position: center -220px;
+    height: 540px;
 }
 header strong{
     font-size: 120%;
