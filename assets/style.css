@@ -10,8 +10,13 @@ a {
 header {
     background: url("img/cover-2.jpg") fixed;
     background-size: cover;
-    background-position: center -220px;
-    height: 540px;
+    background-position: right -25vh;
+    height: 45vh;
+}
+@media screen and (max-width: 600px){
+    header{
+        background-position: -70vh -20vh;
+    }
 }
 header strong{
     font-size: 120%;
