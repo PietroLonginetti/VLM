@@ -66,3 +66,13 @@ p, li{
 .framed{
     border: 1px solid rgba(0,0,0,.125);
 }
+
+.watermark{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 40%;
+    opacity: 0.4;
+    margin-top: 10%;
+}
