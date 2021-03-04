@@ -36,14 +36,20 @@ $articles = json_decode($json);
     <div class="container">
         <div class="row justify-content-center">
             <?php foreach($articles as $ar) { ?>
-            <div id="<?= str_replace(' ', '-', strtolower($ar->title))?>" class="article col-lg-3">
-                <a href="article.php?name=<?= $ar->name ?>">
-                    <img src=<?= $ar->thumbnail ?> class="img-fluid">
-                    <h3 class="text-muted text-center"> <?= $ar->title ?> </h3>
-                </a>
-            </div>
-
-
+                <?php if($ar->disabled){ ?>
+                <div id="<?= str_replace(' ', '-', strtolower($ar->title))?>" class="article-disabled col-lg-3">
+                    <a href="article.php?name=<?= $ar->name ?>" class="btn disabled">
+                        <img src=<?= $ar->thumbnail ?> class="img-fluid">
+                        <h3 class="text-muted text-center"> <?= $ar->title ?> </h3>
+                    </a>    
+                <?php } else {?>
+                <div id="<?= str_replace(' ', '-', strtolower($ar->title))?>" class="article col-lg-3">
+                    <a href="article.php?name=<?= $ar->name ?>" class="btn">
+                        <img src=<?= $ar->thumbnail ?> class="img-fluid">
+                        <h3 class="text-muted text-center"> <?= $ar->title ?> </h3>
+                    </a>
+                <?php } ?>
+                </div>
             <?php } ?>
         </div>
     </div>

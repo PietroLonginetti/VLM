@@ -2,66 +2,79 @@
     {
         "thumbnail" : "assets/img/cura-della-pelle/thumbnail.png",
         "title" : "Cura della Pelle",
-        "name" : "cura-della-pelle"
+        "name" : "cura-della-pelle",
+        "disabled" : false
     },
     {
         "thumbnail" : "assets/img/economia-articolare/thumbnail.png",
         "title" : "Economia Articolare",
-        "name" : "economia-articolare"
+        "name" : "economia-articolare",
+        "disabled" : false
     },
     {
         "thumbnail" : "assets/img/ausili/thumbnail.png",
         "title" : "Ausili",
-        "name" : "ausili"
+        "name" : "ausili",
+        "disabled" : false
     },
     {
         "thumbnail" : "assets/img/postura-e-trasferimenti/thumbnail.png",
         "title" : "Postura e Trasferimenti",
-        "name" : "postura-e-trasferimenti"
+        "name" : "postura-e-trasferimenti",
+        "disabled" : false
     },
     {
         "thumbnail" : "assets/img/esercizio-fisico/thumbnail.png",
         "title" : "Esercizio Fisico",
-        "name" : "esercizio-fisico"
-    },
-    {
-        "thumbnail" : "assets/img/sport/thumbnail.png",
-        "title" : "Sport",
-        "name" : "sport"
+        "name" : "esercizio-fisico",
+        "disabled" : false
     },
     {
         "thumbnail" : "assets/img/complicanze-associate/thumbnail.png",
         "title" : "Complicanze associate",
-        "name" : "complicanze-associate"
+        "name" : "complicanze-associate",
+        "disabled" : false
+    },
+    {
+        "thumbnail" : "assets/img/sport/thumbnail.png",
+        "title" : "Sport",
+        "name" : "sport",
+        "disabled" : true
     },
     {
         "thumbnail" : "assets/img/nutrizione/thumbnail.png",
         "title" : "Nutrizione",
-        "name" : "nutrizione"
+        "name" : "nutrizione",
+        "disabled" : true
     },
     {
         "thumbnail" : "assets/img/abbigliamento/thumbnail.png",
         "title" : "Abbigliamento",
-        "name" : "abbigliamento"
+        "name" : "abbigliamento",
+        "disabled" : true
     },
     {
         "thumbnail" : "assets/img/sessualità/thumbnail.png",
         "title" : "Sessualità",
-        "name" : "sessualità"
+        "name" : "sessualità",
+        "disabled" : true
     },
     {
-        "thumbnail" : "assets/img/thumbnail.png",
+        "thumbnail" : "assets/img/vescica-e-intestino/thumbnail.png",
         "title" : "Vescica e Intestino",
-        "name" : "vescica-e-intestino"
+        "name" : "vescica-e-intestino",
+        "disabled" : true
     },
     {
-        "thumbnail" : "assets/img/thumbnail.png",
+        "thumbnail" : "assets/img/gestione-della-casa/thumbnail.png",
         "title" : "Gestione della casa",
-        "name" : "gestione-della-casa"
+        "name" : "gestione-della-casa",
+        "disabled" : true
     },
     {
-        "thumbnail" : "assets/img/thumbnail.png",
+        "thumbnail" : "assets/img/sistema-respiratorio/thumbnail.png",
         "title" : "Sistema Respiratorio",
-        "name" : "sistema-respiratorio"
+        "name" : "sistema-respiratorio",
+        "disabled" : true
     }
 ]
