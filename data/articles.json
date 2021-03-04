@@ -25,7 +25,12 @@
         "name" : "esercizio-fisico"
     },
     {
-        "thumbnail" : "assets/img/thumbnail.png",
+        "thumbnail" : "assets/img/sport/thumbnail.png",
+        "title" : "Sport",
+        "name" : "sport"
+    },
+    {
+        "thumbnail" : "assets/img/complicanze-associate/thumbnail.png",
         "title" : "Complicanze associate",
         "name" : "complicanze-associate"
     },
@@ -35,7 +40,7 @@
         "name" : "nutrizione"
     },
     {
-        "thumbnail" : "assets/img/thumbnail.png",
+        "thumbnail" : "assets/img/abbigliamento/thumbnail.png",
         "title" : "Abbigliamento",
         "name" : "abbigliamento"
     },
@@ -58,5 +63,5 @@
         "thumbnail" : "assets/img/thumbnail.png",
         "title" : "Sistema Respiratorio",
         "name" : "sistema-respiratorio"
-    } 
+    }
 ]
