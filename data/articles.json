@@ -76,5 +76,11 @@
         "title" : "Sistema Respiratorio",
         "name" : "sistema-respiratorio",
         "disabled" : true
+    },
+    {
+        "thumbnail" : "assets/img/benessere-psicologico/thumbnail.png",
+        "title" : "Benessere psicologico",
+        "name" : "benessere-psicologico",
+        "disabled" : true
     }
 ]
